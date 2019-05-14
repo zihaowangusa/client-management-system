@@ -1,0 +1,21 @@
+{
+  "name": "Employee",
+  "version": "1.0.0",
+  "description": "Employee Management",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "server-install": "cd server && npm install",
+    "server": "cd server && npm run start",
+    "client": "cd client && npm run start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "history": "^4.9.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  }
+}

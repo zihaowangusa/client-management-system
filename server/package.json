@@ -1,0 +1,16 @@
+{
+   "name": "employee--server",
+   "version": "1.0.0",
+   "scripts": {
+      "start": "nodemon server.js"
+   },
+   "devDependencies": {
+      "express": "^4.16.3",
+      "mongoose": "^5.1.7"
+   },
+   "dependencies": {
+      "cors": "^2.8.5",
+      "multer": "^1.4.1",
+      "nodemon": "^1.18.11"
+   }
+}
